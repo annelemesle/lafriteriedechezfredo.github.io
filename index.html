@@ -12,7 +12,7 @@
         h2 { border-bottom: 2px solid #FFD700; padding-bottom: 5px; color: #FFD700; margin-top: 0; }
         .weight-header { font-size: 0.6em; color: #FFD700; text-align: center; width: 45px; display: inline-block; font-weight: normal; }
         .item { display: flex; justify-content: space-between; margin: 10px 0; font-size: 1.1em;color: #ffffff }
-        .prices { display: flex; gap: 10px; min-width: 100px; justify-content: flex-end; }
+        .prices { display: flex; gap: 10px; min-width: 100px; justify-content: flex-end;text-align: right; }
         .price { font-weight: bold; width: 45px; text-align: right; }
         .description { font-size: 0.9em;color:#ffffff; margin: 0 0 15px 0; font-style:italic;}
     </style>
@@ -28,8 +28,10 @@
 
     <section class="category">
         <h2>Burgers
-            <span class="weight-header">100g</span>
-            <span class="weight-header">150g</span>
+            <div>
+                <span class="weight-header">100g</span>
+                <span class="weight-header">150g</span>
+            </div>
         </h2>
         <div class="item"><span>Burger "Simple"</span><span class="prices">
             <span class="price">7.50€</span>
