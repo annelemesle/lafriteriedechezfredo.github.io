@@ -1,1 +1,408 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>La Friterie de Chez Fredo</title>
+<style>
+body { font-family: sans-serif; max-width: 600px; margin: auto; padding: 20px; background: #000000; }
+.header-container {display:flex;align-items:center;justify-content:center;gap:15px;}
+.logo {width:90px;height:auto;padding-bottom:15px}
+h1 { text-align: center; color: #FFD700; }
+.category { background: #800020; padding: 15px;padding-top:5px; border-radius: 10px; margin-bottom: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+.boxtel { background: #800020; padding: 5px; border-radius: 10px; margin: 0 auto 20px auto; box-shadow: 0 2px 5px rgba(0,0,0,0.1);max-width:120px;text-align:center; }
+.tel { color: #FFD700; font-weight: normal; text-align: center;}
+.conteneur-boutons {display:flex; justify-content:space-between; align-items:center;margin-bottom: 20px}
+h2 { border-bottom: 2px solid #FFD700; padding-bottom: 5px; color: #FFD700; padding-top: 0; }
+.grid-row {display: grid;grid-template-columns: 1fr 60px 60px;gap: 0;align-items: center;}
+.item-name { color: #ffffff; font-size: 1.1em; padding-right: 10px; }
+.item-name-noD { color: #ffffff; font-size: 1.1em; padding-right: 10px; padding-bottom:15px }
+.price { color: #ffffff; font-weight: bold; text-align: center; padding: 5px 0; }
+.border-left {border-left: 2px solid #ffffff; width:100%; display:block;}
+.header-text { color: #FFD700; font-size: 0.6em; text-align: center; font-weight: normal; padding-bottom: 5px; }
+.description { font-size: 0.8em; color:#ffffff; margin: 2px 0 15px 0; font-style:italic; }
+.description_cat { font-size: 0.6em; color:#FFD700; margin: 2px 0 5px 0; font-style:italic; }
+</style>
+</head>
+<body>
+
+<header class="header-container">
+<img src="Logo%20gros%20%C3%98%202.jpg" alt="Logo" class="logo">
+<h1>La Friterie de Chez Fredo</h1>
+<img src="Logo%20gros%20%C3%98%202.jpg" alt="Logo" class="logo">
+</header>
+
+<section class="boxtel"><span class="tel">07.64.18.53.73</span></section>
+
+    
+<img src ="images/foodtruck.jpg" alt="FoodTruck" style="max-width:100%;">
+
+<div class="conteneur-boutons">
+<a href="platdumois.html"><button style="background-color:#FFD700; color:#800020;padding:15px 32px; border: none; border-radius: 8px; font-size:16px;cursor:pointer;font-weight:bold;">Plat du mois</button></a>
+<a href="evenement.html"><button style="background-color:#FFD700; color:#800020;padding:15px 32px; border: none; border-radius: 8px; font-size:16px;cursor:pointer;font-weight:bold;">Évènements</button></a>
+</div>
+
+    
+<section class="category">
+    <h2>Frites Ch'tis</h2>
+    <div class="grid-row">
+        <span class="item-name">Barquette de Frites</span>
+        <span></span>
+        <span class="price">2.60€</span>
+    </div>
+</section>
+
+<section class="category">
+    <h2>Burgers
+    <span class="grid-row">
+        <span class="description_cat">*Servi avec une sauce au choix</span>
+        <div class="header-text">Steak 100g</div>
+        <div class="header-text">Steak 150g</div>
+    </span></h2>
+    
+    <!--###########################################################BURGER SIMPLE############################################################################-->
+    <div class="grid-row">
+        <span class="item-name">Burger “Simple”</span>
+        <span class="price">7.50€</span>
+        <span class="price">12.50€</span>
+    </div>
+    <div class="description">Steak, salade, cheddar, tomate, oignon rouge, cornichon</div>
+    <!--####################################################################################################################################################-->
+
+    <!--###########################################################BURGER CHORIZO############################################################################-->
+    <div class="grid-row">
+        <span class="item-name">Burger “Chorizo”</span>
+        <span class="price">8.00€</span>
+        <span class="price">13.00€</span>
+    </div>
+    <div class="description ">Steak, salade, chorizo, cheddar, tomate, oignon rouge, cornichon</div>
+    <!--####################################################################################################################################################-->
+
+    <!--###########################################################BURGER BACON############################################################################-->
+    <div class="grid-row">
+        <span class="item-name">Burger “Bacon”</span>
+        <span class="price">8.00€</span>
+        <span class="price">13.00€</span>
+    </div>
+    <div class="description">Steak, salade, bacon, cheddar, tomate, oignon rouge, cornichon</div>
+    <!--####################################################################################################################################################-->
+
+    <!--###########################################################BURGER KANSAS############################################################################-->
+    <div class="grid-row">
+        <span class="item-name">Burger “Kansas”</span>
+        <span class="price">8.00€</span>
+        <span class="price">13.00€</span>
+    </div>
+    <div class="description">Steak, salade, lard, cheddar, tomate, oignon rouge, cornichon</div>
+    <!--####################################################################################################################################################-->
+
+    <!--###########################################################BURGER CHEVRE-MIEL############################################################################-->
+    <div class="grid-row">
+        <span class="item-name">Burger "Chèvre-Miel"</span>
+        <span class="price">9.00€</span>
+        <span class="price">14.50€</span>
+    </div>
+    <div class="description">Steak, salade, chèvre, miel, cornichon</div>
+    <!--####################################################################################################################################################-->
+
+    <!--###########################################################BURGER POULET############################################################################-->
+    <div class="grid-row">
+        <span class="item-name">Burger "Poulet pané"</span>
+        <span class="price">7.50€</span>
+        <span class="price"></span>
+    </div>
+    <div class="description">Filet de poulet pané, salade, cheddar, tomate, oignon rouge, cornichon</div>
+    <!--####################################################################################################################################################-->
+
+    <!--###########################################################BURGER VEGGIE############################################################################-->
+    <div class="grid-row">
+        <span class="item-name">Burger “Veggie”</span>
+        <span class="price">8.00€</span>
+        <span class="price"></span>
+    </div>
+    <div class="description">Steak végétal, salade, lard, cheddar, tomate, oignon rouge, cornichon</div>
+    <!--####################################################################################################################################################-->
+
+    <!--###########################################################BURGER 80############################################################################-->
+    <div class="grid-row">
+        <span class="item-name">Burger “Le 80”</span>
+        <span class="price">5.50€</span>
+        <span class="price"></span>
+    </div>
+    <div class="description">Steak 80g, cheddar, ketchup</div>
+    <!--####################################################################################################################################################-->
+</section>
+
+
+
+
+    
+<section class="category">
+    <h2>Hot Dogs
+    <div class="description_cat">*Servi avec une sauce au choix</div>
+    </h2>
+
+    <!--###########################################################HOTDOG SIMPLE############################################################################-->
+    <div class="grid-row">
+        <span class="item-name">Hot Dog</span>
+        <span></span>
+        <span class="price">5.40€</span>
+    </div>
+    <div class="description">Pain hot dog, saucisse de Strasbourg</div>
+    <!--####################################################################################################################################################-->
+
+    <!--###########################################################HOTDOG OIGNONG FRITS############################################################################-->
+    <div class="grid-row">
+        <span class="item-name">Hot Dog “oignons frits”</span>
+        <span></span>
+        <span class="price">6.30€</span>
+    </div>
+    <div class="description">Pain hot dog, saucisse de Strasbourg, salade, oignons frits</div>
+    <!--####################################################################################################################################################-->
+
+    <!--###########################################################HOTDOG TUCSON############################################################################-->
+    <div class="grid-row">
+        <span class="item-name">Hot Dog “Tucson”</span>
+        <span></span>
+        <span class="price">9.30€</span>
+    </div>
+    <div class="description">Pain hot dog, saucisse de Strasbourg lardée, fondue d'oignon, sauce cheddar maison</div>
+    <!--####################################################################################################################################################-->
+</section>
+
+<section class="category">
+    <h2>Américain
+    <div class="description_cat">*Servi dans une demi-baguette, avec des frites et une sauce au choix</div>
+    </h2>
+
+    <!--###########################################################AMERICAIN SAUCISSE############################################################################-->
+    <div class="grid-row">
+        <span class="item-name-noD">Américain "Saucisse de Strasbourg"</span>
+        <span></span>
+        <span class="price">7.50€</span>
+    </div>
+    <!--####################################################################################################################################################-->
+
+    <!--###########################################################AMERICAIN POULET############################################################################-->
+    <div class="grid-row">
+        <span class="item-name-noD">Américain "Filet de Poulet pané"</span>
+        <span></span>
+        <span class="price">9.50€</span>
+    </div>
+    <!--####################################################################################################################################################-->
+
+    
+    <!--###########################################################AMERICAIN 100G############################################################################-->
+    <div class="grid-row">
+        <span class="item-name-noD">Américain "Steack 100g"</span>
+        <span></span>
+        <span class="price">9.50€</span>
+    </div>
+    <!--####################################################################################################################################################-->
+
+    
+    <!--###########################################################AMERICAIN TOURANGEAU############################################################################-->
+    <div class="grid-row">
+        <span class="item-name">Américain "Tourangeaux"</span>
+        <span></span>
+        <span class="price">9.50€</span>
+    </div>
+    <div class="description">andouillette cuisinée au vin blanc</div>
+    <!--####################################################################################################################################################-->
+
+    
+    <!--###########################################################AMERICAIN 150G############################################################################-->
+    <div class="grid-row">
+        <span class="item-name-noD">Américain "Steack 150g"</span>
+        <span></span>
+        <span class="price">14.00€</span>
+    </div>
+    <!--####################################################################################################################################################-->
+
+    <!--###########################################################AMERICAIN VEGGIE############################################################################-->
+    <div class="grid-row">
+        <span class="item-name-noD">Américain "Veggie"</span>
+        <span></span>
+        <span class="price">14.00€</span>
+    </div>
+    <!--####################################################################################################################################################-->
+</section>
+
+<section class="category">
+    <h2>Les Tiotes* faims de Fredo
+    <div class="description_cat">*Tiotes = petites</div>
+    </h2>
+
+    <!--###########################################################SAUCISSE FRITES############################################################################-->
+    <div class="grid-row">
+        <span class="item-name">Barquette "Saucisse frites"</span>
+        <span></span>
+        <span class="price">6.60€</span>
+    </div>
+    <div class="description">Saucisse de Strasbourg, salade,tomates ceries, frites, sauce</div>
+    <!--####################################################################################################################################################-->
+
+    <!--###########################################################STEAK 100G FRITES############################################################################-->
+    <div class="grid-row">
+        <span class="item-name">Barquette "Steak 100g frites"</span>
+        <span></span>
+        <span class="price">8.60€</span>
+    </div>
+    <div class="description">Steack 100g, salade, frites, sauce</div>
+    <!--####################################################################################################################################################-->
+
+    <!--###########################################################STEAK 150G FRITES############################################################################-->
+    <div class="grid-row">
+        <span class="item-name">Barquette "Steak 150g frites"</span>
+        <span></span>
+        <span class="price">13.10€</span>
+    </div>
+    <div class="description">Steack 150g, salade, tomates cerises, frites, sauce</div>
+    <!--####################################################################################################################################################-->
+
+    <!--###########################################################POULET FRITES############################################################################-->
+    <div class="grid-row">
+        <span class="item-name">Barquette "Poulet pané frites"</span>
+        <span></span>
+        <span class="price">8.60€</span>
+    </div>
+    <div class="description">Filet de poulet pané, salade, tomates cerises, frites, sauce</div>
+    <!--####################################################################################################################################################-->
+
+    <!--###########################################################TOURANGELLE FRITES############################################################################-->
+    <div class="grid-row">
+        <span class="item-name">Barquette "Tourangelle frites"</span>
+        <span></span>
+        <span class="price">9.60€</span>
+    </div>
+    <div class="description">andouillette cuisinée au vin blanc, salade, frites</div>
+    <!--####################################################################################################################################################-->
+
+    <!--###########################################################SPECIALE FREDO############################################################################-->
+    <div class="grid-row">
+        <span class="item-name">La spéciale Frédo</span>
+        <span></span>
+        <span class="price">7.50€</span>
+    </div>
+    <div class="description">Salade, 3 wings de poulet, 5 onions rings, tomates cerises</div>
+    <!--####################################################################################################################################################-->
+
+    <!--###########################################################SPECIALE ONION RINGS############################################################################-->
+    <div class="grid-row">
+        <span class="item-name-noD">La spéciale 12 "onion rings"</span>
+        <span></span>
+        <span class="price">5.00€</span>
+    </div>
+    <!--####################################################################################################################################################-->
+
+    <!--###########################################################SPECIALE WINGS############################################################################-->
+    <div class="grid-row">
+        <span class="item-name-noD">La spéciale 8 "wings de poulet"</span>
+        <span></span>
+        <span class="price">7.50€</span>
+    </div>
+    <!--####################################################################################################################################################-->
+</section>
+
+<section class="category">
+
+    <h2>Sauces et Suppléments</h2>
+    
+    <!--###########################################################SAUCES############################################################################-->
+    <div class="grid-row">
+        <span class="item-name">Sauces</span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="description">Ketchup,Mayo,Burger,Tartare,Béarnaise, Andalouse, Pita, Curry, Américaine, Algérienne, Samouraï, Barbecue, Oignon-Poivron</div>
+    <!--####################################################################################################################################################-->
+
+    <!--###########################################################SAUCES MAISONS############################################################################-->
+    <div class="grid-row">
+        <span class="item-name">Sauces Maison</span>
+        <span></span>
+        <span class="price" >+1.00€</span>
+    </div>
+    <div class="description">Maroilles, Cheddar, Texanes</div>
+    <!--####################################################################################################################################################-->
+    
+    <!--###########################################################SUPPLEMENT 50cents############################################################################-->
+    <div class="grid-row">
+        <span class="item-name-noD">Bacon, Chorizo, Oignons frits, Cheddar, Sauce</span>
+        <span></span>
+        <span class="price" >+0.50€</span>
+    </div>
+    <!--####################################################################################################################################################-->
+    
+    <!--###########################################################SUPPLEMENT 2euro############################################################################-->
+    <div class="grid-row">
+        <span class="item-name-noD">Saucisse de Strasbourg</span>
+        <span></span>
+        <span class="price" >+2.00€</span>
+    </div>
+    <!--####################################################################################################################################################-->
+
+    <!--###########################################################SUPPLEMENT 3euro############################################################################-->
+    <div class="grid-row">
+        <span class="item-name-noD">Filet de poulet pané</span>
+        <span></span>
+        <span class="price" >+3.00€</span>
+    </div>
+    <!--####################################################################################################################################################-->
+
+    <!--###########################################################SUPPLEMENT 4euro############################################################################-->
+    <div class="grid-row">
+        <span class="item-name-noD">Steak 100g</span>
+        <span></span>
+        <span class="price" >+4.00€</span>
+    </div>
+    <!--####################################################################################################################################################-->
+
+    <!--###########################################################SUPPLEMENT 5euro############################################################################-->
+    <div class="grid-row">
+        <span class="item-name-noD">Steak 150g</span>
+        <span></span>
+        <span class="price" >+5.00€</span>
+    </div>
+    <!--####################################################################################################################################################-->
+
+</section>
+
+<section class="category">
+    <h2>Boissons et Desserts</h2>
+    <div class="grid-row">
+        <span class="item-name-noD">Dessert du jour</span>
+        <span></span>
+        <span class="price">3.00€</span>
+    </div>
+    <div class="grid-row">
+        <span class="item-name-noD">Eau mineral, brique de jus d'orange</span>
+        <span></span>
+        <span class="price">1.00€</span>
+    </div>
+    <div class="grid-row">
+        <span class="item-name-noD">Coca cola, Ice Tea, Oasis, Perrier</span>
+        <span></span>
+        <span class="price">2.50€</span>
+    </div>
+</section>
+
+<section class="category">
+
+    <h2>Formule enfant</h2>
+
+    <!--###########################################################FORMULE ENFANT############################################################################-->
+    <div class="grid-row">
+        <span class="item-name">Enfant -10 ans</span>
+        <span></span>
+        <span class="price" >7.00€</span>
+    </div>
+    <div class="description">Burger "Le 80", petite barquette de frites, jus d'orange</div>
+    <!--####################################################################################################################################################-->
+    
+</section>
+    
+</body>
+</html>
+
 
